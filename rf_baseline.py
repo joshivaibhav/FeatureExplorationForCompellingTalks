@@ -40,7 +40,7 @@ def create_dataset():
 
                 if len(segment) < 100:
                     print("bad segment")
-                # print(idx, " : >>>>" ,segment.shape)
+             
                 data.append([segment, likes, avg_conf])
 
             seg_list.append(len(data))
@@ -61,20 +61,20 @@ def test_train_split(X, y, segment_splits):
 
 
 def generate_RF_features(X, y, c):
-    SPEAKER_ACTION_FEATURE_POINTS = [#[2, True, False, False, True, True, True, True, True],
-                                     #[3, True, False, False, True, True, True, True, True],
-                                     #[4, True, False, False, True, True, True, True, True],
-                                     #[0, True, False, False, True, True, True, True, True],
-                                     #[16, True, False, False, True, True, True, True, True],
-                                     #[5, True, False, False, True, True, True, True, True],
-                                     #[6, True, False, False, True, True, True, True, True],
-                                     #[7, True, False, False, True, True, True, True, True],
-                                     #[(2, 3), False, True, True, False, True],
-                                     #[(3, 4), False, True, True, False, True],
+    SPEAKER_ACTION_FEATURE_POINTS = [[2, True, False, False, True, True, True, True, True],
+                                     [3, True, False, False, True, True, True, True, True],
+                                     [4, True, False, False, True, True, True, True, True],
+                                     [0, True, False, False, True, True, True, True, True],
+                                     [16, True, False, False, True, True, True, True, True],
+                                     [5, True, False, False, True, True, True, True, True],
+                                     [6, True, False, False, True, True, True, True, True],
+                                     [7, True, False, False, True, True, True, True, True],
+                                     [(2, 3), False, True, True, False, True],
+                                     [(3, 4), False, True, True, False, True],
                                      [(2, 4), False, True, True, False, True],
                                      [(2, 5),False, True, True, False, True],
-                                     #[(5, 6), False, True, True, False, True],
-                                    #[(5, 7), False, True, True, False, True],
+                                     [(5, 6), False, True, True, False, True],
+                                     [(5, 7), False, True, True, False, True],
                                      [(5, 7), False, True, True, False, True]]
 
     features = []
