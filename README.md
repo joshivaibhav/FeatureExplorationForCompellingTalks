@@ -3,7 +3,7 @@ Determine correlation between visual gestures/features and the popularity of Ted
 
 #
 ![Report_1](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-1.jpg)
-![Report_2](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-2s.jpg)
+![Report_2](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-2.jpg)
 ![Report_3](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-3.jpg)
 ![Report_4](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-4.jpg)
 ![Report_5](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-5.jpg)
