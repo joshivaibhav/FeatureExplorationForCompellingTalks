@@ -1,7 +1,7 @@
-# FeatureExplorationForCompellingTalks
+# Feature Exploration For Compelling Talks
 Determine correlation between visual gestures/features and the popularity of Ted Talk videos and identify compelling features that influence the final outcome
 
-#
+# Research Report
 ![Report_1](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-1.jpg)
 ![Report_2](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-2.jpg)
 ![Report_3](https://github.com/joshivaibhav/FeatureExplorationForCompellingTalks/blob/main/plots/project_report-3.jpg)
